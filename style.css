@@ -98,7 +98,7 @@ header {
 /* Responsive styles for smaller screens */
 @media only screen and (max-width: 768px) {
     .row {
-        margin: 0 auto;
+        max-width: 90%;
     }
     .intro-text-box h1 {
         font-size: 36pt; /* Adjust the font size for smaller screens */
@@ -110,7 +110,7 @@ header {
         font-size: 14pt; /* Adjust the font size for smaller screens */
     }
 
-    .max-width {
-        max-width: 90%; /* Adjust the max-width for smaller screens */
+    footer {
+        max-width: 70%;
     }
 }
