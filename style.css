@@ -1,0 +1,95 @@
+/*header style*/
+header {
+    text-align: center; 
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5pt;
+ }
+
+ body {
+    background-color: rgb(13, 71, 90);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+ footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: auto;
+    box-sizing: border-box;
+    margin: auto auto;
+    max-width: 40%;
+}
+
+ /*main content*/
+ * {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+ .row {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+ }
+
+ .intro-text-box {
+    line-height: 1.6;
+    color:#e0e016;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+ }
+ .intro-text-box h1 {
+    font-size: 50pt;
+    padding-bottom: 40px
+ }
+ .intro-text-box p1 {
+    font-size: 16pt;
+    padding-bottom: 30px;
+    display: block;
+    clear: both;
+ }
+ .intro-text-box p2 {
+    font-size: 16pt;
+    padding-bottom: 30px;
+    display: block;
+    clear: both;
+ }
+ .intro-text-box p3 {
+    font-size: 16pt;
+    padding-bottom: 30px;
+    display: block;
+    clear: both;
+ }
+
+
+  /*links body*/
+ #body a:link {
+    color:#e0e016;
+    text-decoration:none;
+    background-color: rgb(139, 47, 186);
+    padding: 1px 6px;
+  }
+
+ #body a:hover {
+    text-decoration: underline;
+  }
+
+  /*links footer*/
+ #footer a:link {
+    color:beige;
+    text-decoration:none;
+    background-color:black;
+    padding: 1px 6px;
+  }
+
+  #footer a:hover {
+    text-decoration: underline;
+  }
+
+
+  .single-line {
+    white-space: nowrap;
+  }
