@@ -93,3 +93,21 @@ header {
   .single-line {
     white-space: nowrap;
   }
+
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .intro-text-box h1 {
+        font-size: 36pt; /* Adjust the font size for smaller screens */
+    }
+
+    .intro-text-box p1,
+    .intro-text-box p2,
+    .intro-text-box p3 {
+        font-size: 14pt; /* Adjust the font size for smaller screens */
+    }
+
+    .max-width {
+        max-width: 80%; /* Adjust the max-width for smaller screens */
+    }
+}
