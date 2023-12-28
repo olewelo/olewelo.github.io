@@ -113,5 +113,7 @@ header {
 
     footer {
         max-width: 70%;
+        padding-top: 20pt;
+        padding-bottom: 20pt;
     }
 }
