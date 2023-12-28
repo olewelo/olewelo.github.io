@@ -66,7 +66,7 @@ header {
 
 
   /*links body*/
- #body a:link {
+ #body a:any-link {
     color:#e0e016;
     text-decoration:none;
     background-color: rgb(139, 47, 186);
@@ -78,7 +78,7 @@ header {
   }
 
   /*links footer*/
- #footer a:link {
+ #footer a:any-link {
     color:beige;
     text-decoration:none;
     background-color:black;
@@ -90,6 +90,7 @@ header {
   }
 
 
+  /* Keeping links from wrapping at the wrong place */
   .single-line {
     white-space: nowrap;
   }
