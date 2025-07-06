@@ -1,0 +1,219 @@
+/*header style*/
+header {
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+ }
+
+ body {
+    background-color: rgb(13, 71, 90);
+    text-align: left;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+ footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: auto;
+    box-sizing: border-box;
+    margin: auto auto;
+    max-width: 40%;
+    padding-bottom: 20px;
+}
+
+ /*main content*/
+ * {
+    box-sizing: border-box;
+}
+
+ html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.title {
+    display: block;
+    color: #e0e016;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    max-width: 90%;
+}
+
+.title h1 {
+    font-size: 50pt;
+    padding-top: 20vh;
+    padding-bottom: 0pt;
+    margin-bottom: 0px;
+}
+
+.title h2 {
+    font-size: 25pt;
+    color: #a4a422;
+    padding-bottom: 50pt;
+    font-style: bold;
+}
+
+.title h3 {
+    font-size: 16pt;
+    padding-bottom: 15pt;
+    color: #000000;
+    font-style: bold;
+}
+
+.title p1 {
+   font-size: 16pt;
+   font-style: normal;
+   color: #000000;
+}
+
+ .row {
+    display: block;
+    line-height: 1.4;
+    color:#ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    max-width: 60%;
+ }
+
+
+ .main p1 {
+    font-size: 16pt;
+    text-align: left;
+    padding-bottom: 30px;
+    display: block;
+    clear: both;
+ }
+
+ .main h1 {
+   font-size: 20pt;
+   text-align: left;
+   color: #e0e016;
+ }
+
+ .body-image {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-align: center;
+ }
+
+ .body-image img {
+   max-width: 80%;
+ }
+
+ .body-image p {
+   margin: 0 auto;
+   font-size: 10pt;
+   color: #e0e016;
+   padding-top: 5px;
+   max-width: 80%;
+ }
+
+  /*links body*/
+ #body a:any-link {
+    color:#000000;
+    text-decoration:none;
+    background-color: #e0e016;
+    padding: 1px 6px;
+  }
+
+ #body a:hover {
+    text-decoration: underline;
+  }
+
+  /*links footer*/
+ #footer a:any-link {
+    color:beige;
+    text-decoration:none;
+    background-color:black;
+    padding: 1px 6px;
+  }
+
+  #footer a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Keeping links from wrapping at the wrong place */
+  .single-line {
+    white-space: nowrap;
+  }
+
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .title h1 {
+      padding-top: 5vh;
+      font-size: 32pt;
+    }  
+    .title h2 {
+        font-size: 18pt;
+    }
+    .title h3 {
+        font-size: 12pt;
+    }
+    .row {
+        max-width: 90%;
+    }
+
+    .main p1 {
+        font-size: 14pt; /* Adjust the font size for smaller screens */
+    }
+
+    footer {
+        max-width: 70%;
+        padding-top: 20pt;
+        padding-bottom: 20pt;
+    }
+}
+
+
+/* Footnote */
+#footnotes {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    margin: 2em 0 1em 0;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#footnotes a {
+    color: #e0e016;
+    text-decoration: none;
+    font-size: 1em;
+}
+#footnotes a:hover {
+    text-decoration: underline;
+}
+
+/* Footnote number in text: regular size, yellow, no box */
+sup, sup a {
+    background: none !important;
+    color: #e0e016 !important;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin-left: -1px;   /* Pulls the symbol closer to the word */
+    margin-right: -0.5px;
+    font-size: inherit;  /* Regular size */
+    vertical-align: text-top; /* Less extreme than super */
+    line-height: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+sup a:hover {
+    text-decoration: underline;
+}
