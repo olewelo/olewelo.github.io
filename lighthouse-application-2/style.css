@@ -9,7 +9,7 @@ header {
  }
 
  body {
-    background-color: rgb(13, 71, 90);
+    background-color: #faf8f5;
     text-align: left;
     min-height: 100vh;
     display: flex;
@@ -38,11 +38,11 @@ header {
 
 .title {
     display: block;
-    color: #e0e016;
+    color: #333333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
     flex-wrap: wrap;
     max-width: 90%;
 }
@@ -52,19 +52,13 @@ header {
     padding-top: 20vh;
     padding-bottom: 0pt;
     margin-bottom: 0px;
+    color: #2c3e50;
 }
 
 .title h2 {
     font-size: 25pt;
-    color: #a4a422;
-    padding-bottom: 50pt;
-    font-style: bold;
-}
-
-.title h3 {
-    font-size: 16pt;
-    padding-bottom: 15pt;
-    color: #000000;
+    color: #2d5016;
+    padding-bottom: 0pt;
     font-style: bold;
 }
 
@@ -72,12 +66,28 @@ header {
    font-size: 16pt;
    font-style: normal;
    color: #000000;
+   padding-bottom: 90pt;
+   margin: 0 auto;
+   display: block;
 }
+
+.title h3 {
+    font-size: 16pt;
+    margin-bottom: 30pt;
+    color: #000000;
+    font-style: bold;
+    width: 66.67%;
+    margin: 0 auto 30pt auto;
+    border-left: 4px solid #2d5016;
+    padding-left: 15px;
+}
+
+
 
  .row {
     display: block;
     line-height: 1.4;
-    color:#ffffff;
+    color:#333333;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     padding-bottom: 40px;
     flex-wrap: wrap;
@@ -98,7 +108,7 @@ header {
  .main h1 {
    font-size: 20pt;
    text-align: left;
-   color: #e0e016;
+   color: #2c5282;
  }
 
  .body-image {
@@ -114,28 +124,29 @@ header {
  .body-image p {
    margin: 0 auto;
    font-size: 10pt;
-   color: #e0e016;
+   color: #666666;
    padding-top: 5px;
    max-width: 80%;
  }
 
   /*links body*/
  #body a:any-link {
-    color:#000000;
+    color:#ffffff;
     text-decoration:none;
-    background-color: #e0e016;
+    background-color: #2d5016;
     padding: 1px 6px;
   }
 
  #body a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 3px 6px;
   }
 
   /*links footer*/
  #footer a:any-link {
-    color:beige;
+    color:#ffffff;
     text-decoration:none;
-    background-color:black;
+    background-color:#666666;
     padding: 1px 6px;
   }
 
@@ -180,7 +191,7 @@ header {
 
 /* Footnote */
 #footnotes {
-    color: #fff;
+    color: #333333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.85em;
     margin: 2em 0 1em 0;
@@ -190,7 +201,7 @@ header {
     text-align: center;
 }
 #footnotes a {
-    color: #e0e016;
+    color: #2c5282;
     text-decoration: none;
     font-size: 1em;
 }
@@ -198,10 +209,10 @@ header {
     text-decoration: underline;
 }
 
-/* Footnote number in text: regular size, yellow, no box */
+/* Footnote in text: regular size, blue, no box */
 sup, sup a {
     background: none !important;
-    color: #e0e016 !important;
+    color: #2c5282 !important;
     text-decoration: none;
     border: none;
     box-shadow: none;
@@ -215,5 +226,5 @@ sup, sup a {
     word-spacing: normal;
 }
 sup a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
