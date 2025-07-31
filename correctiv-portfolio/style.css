@@ -16,6 +16,9 @@ header {
 
  footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
     margin-top: auto;
     box-sizing: border-box;
     margin: auto auto;
@@ -40,7 +43,7 @@ header {
  }
 
  .main {
-    line-height: 1.1;
+    line-height: 1.4;
     color:#2c3e50;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 30px;
@@ -48,7 +51,8 @@ header {
  .main h1 {
     color: #2c3e50; 
     font-size: 30pt;
-    padding-bottom: 40px
+    padding-top: 60px;
+    padding-bottom: 60px
  }
 
  .main h2 {
@@ -56,6 +60,13 @@ header {
     text-align: left;
     color: #2c5282;
  }
+
+ .main h3 {
+    font-size: 16pt;
+    color: #000000;
+    border-left: 3px solid #2d5016;
+    padding-left: 15px;
+}
 
  .main p1 {
     font-size: 16pt;
@@ -79,6 +90,21 @@ header {
     padding: 3px 6px;
   }
 
+
+  /*links body - squiggly underline style*/
+ #body a.squiggly:any-link {
+    color: #da6009;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0;
+  }
+
+ #body a.squiggly:hover {
+    color: #da6009;
+    text-decoration: underline;
+    padding: 0;
+  }
+
   /*links footer*/
  #footer a:any-link {
     color:beige;
@@ -98,6 +124,7 @@ header {
   }
 
   .inline-logo {
+    padding-left: 0.5em;
     height: 2em;
     vertical-align: middle;
     display: inline;
