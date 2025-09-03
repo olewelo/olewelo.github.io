@@ -1,4 +1,4 @@
-/*header style*/
+/* General - header style */
 header {
     text-align: center; 
     padding-top: 20px;
@@ -22,7 +22,7 @@ header {
     max-width: 40%;
 }
 
- /*main content*/
+ /* General - main content */
  * {
     box-sizing: border-box;
 }
@@ -69,7 +69,7 @@ header {
     clear: both;
  }
 
-/* Responsive styles for smaller screens */
+/* General - Responsive styles for smaller screens */
 @media only screen and (max-width: 768px) {
     .row {
         max-width: 90%;
@@ -88,5 +88,90 @@ header {
         max-width: 70%;
         padding-top: 20pt;
         padding-bottom: 20pt;
+    }
+}
+
+/* Video application page styles */
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+}
+
+.title-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.title-column header {
+    text-align: center;
+    width: 100%;
+}
+
+.title-column h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.video-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.video-column main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    height: 90vh;
+    width: 50.625vh;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Mobile responsive styles for video page */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        overflow-y: auto;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .title-column {
+        flex: none;
+        padding: 20px;
+        height: auto;
+    }
+    
+    .video-column {
+        flex: none;
+        padding: 20px;
+        height: auto;
+    }
+    
+    .video-container {
+        height: 70vh;
+        width: 39.375vh;
+        max-width: 90vw;
+        max-height: 160vw;
     }
 }
